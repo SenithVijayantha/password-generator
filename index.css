@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.generate-pw__btn__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    line-height: 3rem;
+}
+
+h3 {
+    font-family: "Poppins", serif;
+    font-weight: normal;
+    color: #D5D4D8;
+}
+
+button {
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    
+}
+
+.green__text {
+    color: #10B981;
+}
+
+.generate-pw__btn {
+    background: #10B981;
+    color: white;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.pw__btn {
+    width: 11rem;
+    height: 2.3rem;
+    background-color: #273549;
+}
+
+hr {
+    color: #2F3E53; /* Works in some browsers */
+    background-color: #2F3E53; /* Fallback for other browsers */
+    height: 2px; /* Adjust thickness */
+    border: none; /* Remove default border */
+}
+
+.pw__btn__container {
+    display: flex;
+    justify-content: space-between;
+}

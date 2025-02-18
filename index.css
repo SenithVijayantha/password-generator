@@ -78,3 +78,19 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 640px) {
+    .generate-pw__btn {
+        width: 70%;
+    }
+
+    .pw__btn__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pw__btn {
+        width: 70%;
+    }
+}
